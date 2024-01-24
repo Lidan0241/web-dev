@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Australia - TripTale.com</title>
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="australia.css">
+
+    <!--JQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="australia.js"></script>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Enriqueta:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Noto+Sans+SC:wght@900&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--Navbar-->
+  <div class="navbarContainer container"  style="z-index: 100; position:relative">
+    <ul class="nav nav-pills row">
+        <li class="nav-item col">
+          <a class="nav-link nav1" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item dropdown col">
+          <a class="nav-link nav2 dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">Destinations</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="asia.html">Asia</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="africa.html">Africa</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="australia.html">Australia</a></li>
+          </ul>
+        </li>
+        <li class="nav-item col navMilieu">
+            <a class="nav-link nav3" href="index.html">Trip<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-globe-asia-australia" viewBox="0 0 16 16">
+                <path d="m10.495 6.92 1.278-.619a.483.483 0 0 0 .126-.782c-.252-.244-.682-.139-.932.107-.23.226-.513.373-.816.53l-.102.054c-.338.178-.264.626.1.736a.48.48 0 0 0 .346-.027ZM7.741 9.808V9.78a.413.413 0 1 1 .783.183l-.22.443a.6.6 0 0 1-.12.167l-.193.185a.36.36 0 1 1-.5-.516l.112-.108a.45.45 0 0 0 .138-.326M5.672 12.5l.482.233A.386.386 0 1 0 6.32 12h-.416a.7.7 0 0 1-.419-.139l-.277-.206a.302.302 0 1 0-.298.52z"/>
+                <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M1.612 10.867l.756-1.288a1 1 0 0 1 1.545-.225l1.074 1.005a.986.986 0 0 0 1.36-.011l.038-.037a.88.88 0 0 0 .26-.755c-.075-.548.37-1.033.92-1.099.728-.086 1.587-.324 1.728-.957.086-.386-.114-.83-.361-1.2-.207-.312 0-.8.374-.8.123 0 .24-.055.318-.15l.393-.474c.196-.237.491-.368.797-.403.554-.064 1.407-.277 1.583-.973.098-.391-.192-.634-.484-.88-.254-.212-.51-.426-.515-.741a7 7 0 0 1 3.425 7.692 1 1 0 0 0-.087-.063l-.316-.204a1 1 0 0 0-.977-.06l-.169.082a1 1 0 0 1-.741.051l-1.021-.329A1 1 0 0 0 11.205 9h-.165a1 1 0 0 0-.945.674l-.172.499a1 1 0 0 1-.404.514l-.802.518a1 1 0 0 0-.458.84v.455a1 1 0 0 0 1 1h.257a1 1 0 0 1 .542.16l.762.49a1 1 0 0 0 .283.126 7 7 0 0 1-9.49-3.409Z"/>
+              </svg>Tale
+            </a>
+          </li>
+        <li class="nav-item col">
+          <a class="nav-link nav4" href="#">Plan your trip</a>
+        </li>
+        <li class="nav-item col">
+          <a class="nav-link nav5" href="formulaire.html">Contact us</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="myContainer">
+      <!--Image-->
+      <div class="imageContainer">
+        <image src="https://images.unsplash.com/photo-1547468852-a009a1248cae?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="image"></image>
+      </div>
+      <p class="copyright">© Spencer Davis / Unsplash Images</p>
+      <!--Asia Title-->
+      <div class="titleBlockContainer">
+        <div class="titleContainer">
+          <h2 class="asiaTitle">Australia</h2>
+        </div>
+        <div class="introduction">
+          <h5>A land of outback adventures and coastal wonders.</h5>
+          <p>Embark on an unforgettable journey to Australia, a diverse land of breathtaking natural beauty, unique wildlife, and vibrant cities. From the iconic Sydney Opera House to the remote Outback, the Great Barrier Reef to the cultural richness of Melbourne, Australia offers an adventure for every traveler.</p>
+        </div>
+        <div class="buttonContainer">
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <div class="btn-group" role="group" aria-label="Basic outlined example">
+              <a href="https://www.booking.com/index.fr.html?label=gog235jc-1DCAEoggI46AdIM1gDaE2IAQGYAQ24AQfIAQzYAQPoAQGIAgGoAgO4Aoyoxa0GwAIB0gIkMTQyMDc0ZTQtYTE2Zi00MmE2LTkwODMtMzFlNDczYjFlZDBh2AIE4AIB&sid=306c41821a322984ea596f6d3bf93d7a&aid=397594">
+                <button type="button" class="btn btn-outline-primary">Accomodation</button>
+              </a>
+              <a href="https://www.skyscanner.fr/">
+                <button type="button" class="btn btn-outline-primary" style="--bs-btn-padding-x: 2.1rem">Flight</button>
+              </a>
+              <a href="formulaire.html">
+                <button type="button" class="btn btn-outline-primary"style="--bs-btn-padding-x: 1.2rem">Contact Us</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--Cards 1-->
+  <div class="colorContainer">
+    <div class="cityContainer">
+      <h1 class="titleCity">Where to next?</h1>
+      <h6 class="subtitleCity">Top cities in Australia to visit</h6>
+    </div>
+    <div class="saveContainer">
+      <button class="btn btn-outline-danger btnSave" href="https://www.skyscanner.fr/" value="yes"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+        <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"/>
+        </svg>
+        Save
+      </button>
+    </div>
+    <div class="cardContainer">
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card card1">
+            <img src="https://images.unsplash.com/photo-1532572204213-a43b97556045?q=80&w=2188&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" height="350px" width="30px" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sydney</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card2">
+            <img src="https://images.unsplash.com/photo-1580054964025-b212c87078c8?q=80&w=2235&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" height="350px" width="30px" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Melbourne</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card3">
+            <img src="https://images.unsplash.com/photo-1588732807335-2132a3f9489e?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" height="350px" width="20px" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Perth</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional contentional content. This contplp.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card 4">
+            <img src="https://plus.unsplash.com/premium_photo-1678303397238-76250a5ebf73?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" height="350px" width="20px" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Kuala Lumpur</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Cards 2-->
+  <div class="colorContainer2">
+    <div class="placeContainer">
+      <div class="placeTitleContainer">
+        <h1 class="titlePlace">3 must-see places</h1>
+        <h6 class="subtitlePlace">Explore our latest suggestions</h6>
+      </div>
+      <div class="cardContainer2">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://images.unsplash.com/photo-1461073116689-3fba0b98a223?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">The Pearl Tower</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 hours ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://images.unsplash.com/photo-1555841666-851050de3839?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Singaporean Merlion Park</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 19 hours ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://images.unsplash.com/photo-1559217371-a654c1c0f1c5?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">The grand Palace in Bangkok</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 1 day ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+</div>
+</div>
+</body>
+</html>
