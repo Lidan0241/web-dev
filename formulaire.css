@@ -50,11 +50,33 @@ form {
     margin: 80px;
     padding: 35px;
 }
-
-.btnContainer {
+.form-range ¶{
+    height: 3rem;
+}
+.euroBlock {
+    background-color: transparent;
+    border-radius: 20px;
+    border-color: #efb55d;
+    color: white;
+    margin-left: 8px;
+}
+.btnNextContainer {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: right;
+    align-items: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.btnSubmitContainer {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-top: 20px;
+}
+.btnBackContainer {
+    display: flex;
+    justify-content: left;
+    align-items: left;
     margin-top: 20px;
 }
 .btnValidateContainer {
@@ -79,4 +101,50 @@ form {
 #autocomplete-results {
     border: 3px solid #efb55d;
     position: absolute;
-    z-inde
+    z-index: 1000;
+    background: white;
+
+}
+.dropdown-menu {
+    width: 25vw;
+    align-content: center;
+}
+.autocomplete-item:hover {
+    background-color: #42070561; /* Background color on hover */
+}
+
+.consent {
+    font-size:smaller;
+}
+
+.text1, .text2 {
+    font-family: 'Raleway', sans-serif, bold;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.datepicker {
+    color: rgb(9, 9, 9);
+}
+
+.text3, .text4, .text5, .text6 {
+    font-family: 'Raleway', sans-serif;
+    font-size: smaller;
+    color: white;
+    text-align: center;
+}
+
+@keyframes fadeInUp {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+
+
