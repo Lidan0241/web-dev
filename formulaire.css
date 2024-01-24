@@ -1,0 +1,82 @@
+body {
+    background-image: url('train.png'); 
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.navbarContainer {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+.navbarContentContainer {
+    width: 100%;
+}
+
+.nav-link {
+    color:white;
+}
+
+.nav {
+    font-family: 'Raleway', sans-serif, bold;
+    font-size: 1.2rem;
+    font-weight: bold;
+    height: 11vh;
+    align-items: center;
+}
+
+.navMilieu {
+    font-family: 'Lobster Two', sans-serif;
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+.nav-hover {
+    color: gray;
+}
+
+form {
+    font-family: 'Raleway', sans-serif, bold;
+    color: white;
+}
+
+.formContainer {
+    background-color: rgba(88, 58, 30, 0.597);
+    border-radius: 20px;
+    margin: 80px;
+    padding: 35px;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.btnValidateContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.formContainer {
+    animation: 1s fadeInUp;
+}
+
+.radioConsent {
+    margin-left: 20px;
+}
+
+.form-text {
+    font-size:x-small;
+}
+
+#autocomplete-results {
+    border: 3px solid #efb55d;
+    position: absolute;
+    z-inde

@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(239, 223, 186);
+}
+.navbarContainer {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+.navbarContentContainer {
+    width: 100%;
+}
+
+.nav-link {
+    color:rgb(0, 0, 0);
+}
+
+.nav {
+    font-family: 'Raleway', sans-serif, bold;
+    font-size: 1.2rem;
+    font-weight: bold;
+    height: 11vh;
+    align-items: center;
+}
+
+.navMilieu {
+    font-family: 'Lobster Two', sans-serif;
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+
+.myContainer {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.image {
+    border-radius: 20px;
+    max-width: 98%;
+    height: 80%;
+}
+
+.copyright {
+    font-size: xx-small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imageContainer {
+    justify-content: center;
+    display: flex;
+}
+.titleBlockContainer {
+    padding-left: 14%;
+    padding-right: 14%;
+}
+.titleContainer {
+    padding-top: 60px;
+}
+.asiaTitle {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(33, 38, 106);
+    font-size: 6rem;
+    font-weight: bolder;
+}
+.saveContainer{
+    padding-left: 14%;
+    padding-right: 14%;
+}
+.introduction {
+    f

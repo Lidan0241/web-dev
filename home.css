@@ -1,0 +1,55 @@
+body {
+    all: unset;
+}
+.logo {
+    font-family: 'Lobster Two', sans-serif;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+.title {
+    left : calc(50vw - 240px);
+    position: absolute; 
+    top: 35vh; 
+    align-items: center;
+    z-index: 1000;
+}
+
+.title1, .title2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 4.5rem;
+    font-weight: bolder;
+}
+
+.title3 {
+    font-family: 'Raleway', sans-serif, lighter;
+    font-size: 1.1rem;
+}
+
+.subtitle1, .subtitle2, .subtitle3{
+    font-family: 'Raleway', sans-serif, bold;
+    font-size: 1.8rem;
+    margin-left: 10px;
+}
+
+.backgroundContainer{
+    height:100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.backgroundPart {
+    width:100%;
+    height:100%;
+    padding: 0;
+}
+
+.navbarContainer {
+    width: 100%;
+  

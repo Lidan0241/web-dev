@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - TripTale.com</title>
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="formulaire.css">
+
+    <!--JQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="formulaire.js"></script>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Enriqueta:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Noto+Sans+SC:wght@900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="alert alert-dark alert-dismissible fade show" role="alert">
+    If you have any questions, please contact our customers' service at <strong>contact@triptale.com</strong>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+  <!--Navbar-->
+  <div class="navbarContainer container"  style="z-index: 100; position:relative">
+    <ul class="nav nav-pills row">
+        <li class="nav-item col">
+          <a class="nav-link nav1" aria-current="page" href="home.html">Home</a>
+        </li>
+        <li class="nav-item dropdown col">
+          <a class="nav-link nav2 dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">Destinations</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="asia.html">Asia</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="africa.html">Africa</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="australia.html">Australia</a></li>
+          </ul>
+        </li>
+        <li class="nav-item col navMilieu">
+            <a class="nav-link nav3" href="home.html">Trip<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-globe-asia-australia" viewBox="0 0 16 16">
+                <path d="m10.495 6.92 1.278-.619a.483.483 0 0 0 .126-.782c-.252-.244-.682-.139-.932.107-.23.226-.513.373-.816.53l-.102.054c-.338.178-.264.626.1.736a.48.48 0 0 0 .346-.027ZM7.741 9.808V9.78a.413.413 0 1 1 .783.183l-.22.443a.6.6 0 0 1-.12.167l-.193.185a.36.36 0 1 1-.5-.516l.112-.108a.45.45 0 0 0 .138-.326M5.672 12.5l.482.233A.386.386 0 1 0 6.32 12h-.416a.7.7 0 0 1-.419-.139l-.277-.206a.302.302 0 1 0-.298.52z"/>
+                <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M1.612 10.867l.756-1.288a1 1 0 0 1 1.545-.225l1.074 1.005a.986.986 0 0 0 1.36-.011l.038-.037a.88.88 0 0 0 .26-.755c-.075-.548.37-1.033.92-1.099.728-.086 1.587-.324 1.728-.957.086-.386-.114-.83-.361-1.2-.207-.312 0-.8.374-.8.123 0 .24-.055.318-.15l.393-.474c.196-.237.491-.368.797-.403.554-.064 1.407-.277 1.583-.973.098-.391-.192-.634-.484-.88-.254-.212-.51-.426-.515-.741a7 7 0 0 1 3.425 7.692 1 1 0 0 0-.087-.063l-.316-.204a1 1 0 0 0-.977-.06l-.169.082a1 1 0 0 1-.741.051l-1.021-.329A1 1 0 0 0 11.205 9h-.165a1 1 0 0 0-.945.674l-.172.499a1 1 0 0 1-.404.514l-.802.518a1 1 0 0 0-.458.84v.455a1 1 0 0 0 1 1h.257a1 1 0 0 1 .542.16l.762.49a1 1 0 0 0 .283.126 7 7 0 0 1-9.49-3.409Z"/>
+              </svg>Tale
+            </a>
+          </li>
+        <li class="nav-item col">
+          <a class="nav-link nav4" href="#">Plan your trip</a>
+        </li>
+        <li class="nav-item col">
+          <a class="nav-link nav5" href="formulaire.html">Contact us</a>
+        </li>
+      </ul>
+    </div>
+
+  <!--Form 1-->
+  <div class="formContainer form1">
+    <form>
+      <!--1st row-->
+      <div class="container">
+      <div class="row">
+      <div class="mb-2 col">
+        <label class="form-label">First Name</label>
+        <input type="text" class="form-control">
+      </div>
+      <div class="mb-2 col">
+        <label class="form-label">Family Name</label>
+        <input type="text" class="form-control">
+      </div>
+      </div>
+      </div>
+
+      <!--2nd row-->
+      <div class="container">
+        <div class="row">
+        <div class="mb-2 col">
+          <label class="form-label">Email address</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="mb-2 col">
+          <label class="form-label">Travel destination</label>
+          <select class="form-control">
+              <option selected class="choose">Choose a continent</option>
+              <option value="1">Africa</option>
+              <option value="2">Asia</option>
+              <option value="3">Australia</option>
+          </select>
+          <div class="form-text" style="color: bisque;">We currently have 3 continents available for plannings.</div>
+        </div>
+        </div>
+        </div>
+
+      <!--3rd row-->
+      <div class="container">
+        <div class="row">
+          <div class="mb-2 col">
+            <label class="form-label">Budgets</label>
+            <select class="form-control">
+                <option selected class="choose">Choose your budget</option>
+                <option value="1">500€-1000€</option>
+                <option value="2">1000-3000€</option>
+                <option value="3">3000€-6000€</option>
+            </select>
+          </div>
+        <div class="mb-2 col">
+          <label class="form-label">Phone number</label>
+          <input type="text" class="form-control">
+        </div>
+        </div>
+        </div>
+      <div class="btnContainer">
+        <button class="btn btn-outline-warning btnNext" value="yes" >Next</button>
+      </div>
+    </form>
+  </div>
+
+  <!--Form2-->
+  <div class="formContainer form2">
+    <form>
+      <!--1st row-->
+      <div class="container">
+      <div class="row">
+      <div class="mb-2 col">
+        <label class="form-label">Departure Date</label>
+        <input class="form-control" type="date" id="start" name="trip-start" value="2024-2-1" min="2023-01-25" max="2025-12-31" />
+        <div class="form-text" style="color: bisque;">You can modify the dates later.</div>
+      </div>
+      <div class="mb-2 col">
+        <label class="form-label">Leaving date</label>
+        <input class="form-control" type="date" id="start" name="trip-start" value="2024-2-1" min="2023-01-25" max="2026-12-31" />
+      </div>
+      </div>
+      </div>
+
+      <!--2nd row-->
+      <div class="container">
+        <div class="row">
+          <div class="mb-2 col">
+            <label class="form-label">Zip code (Metropolitan France Only)</label>
+            <input type="text" class="form-control code">
+            <div class="form-text" style="color: bisque;">Click on  validate to confirm your city.</div>
+            <button class="btn btn-outline-warning btnValidate" value="yes" >Validate</button>
+          </div>
+          <div class="mb-2 col">
+            <label class="form-label">Residence City</label>
+            <input type="text" class="form-control city">
+          </div>
+          
+        </div>
+      </div>
+
+      <!--3rd row-->
+      <div class="container">
+        <div class="row">
+          <div class="mb-2 col">
+            <label class="form-label">Adress</label>
+            <input class="form-control" type="text" id="address-input" placeholder="Enter address">
+            <div class="dropdown-menu" id="autocomplete-results" style="display: none;"></div>
+
+          </div>
+          <div class="mb-2 col">
+            <label class="form-label">Accomodation Preference</label>
+            <select class="form-control">
+                <option selected class="choose">Choose your accomodation</option>
+                <option value="1">Hostel</option>
+                <option value="2">Hotel</option>
+                <option value="3">Airbnb</option>
+                <option value="3">I already have an accomodation</option>
+            </select>
+          </div>
+        </div>
+        </div>
+        <div class="mb-2 form-check">
+          <input type="radio" name="customRadio" class="form-check-input consent radioConsent" value="yes">
+          <label class="form-check-label consent" value="yes">By confirming, you agree to our use of your information in accordance with our <a href="https://policies.google.com/privacy?hl=fr">Privacy Policy</a>.</label>
+        </div>
+      <div class="btnContainer">
+        <button type="submit" class="btn btn-outline-warning btnSubmit disabled" value="yes">Submit</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="formContainer form3">
+    <div class="text">
+      <p class="text1">Thank you for
