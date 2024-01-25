@@ -46,6 +46,7 @@ body {
     top: 20vh; 
     align-items: center;
     z-index: 1000;
+    animation: 2s fadeInUp;
 }
 
 .title1{
@@ -68,6 +69,7 @@ body {
     margin-left: 300px;
     margin-right: 300px;
     margin-top: 400px;
+    animation: 3s fadeInUp;
 }
 
 .valueTitleContainer {
@@ -96,3 +98,14 @@ body {
     justify-content: center;
     display: flex;
 }
+
+@keyframes fadeInUp {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }

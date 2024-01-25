@@ -105,7 +105,6 @@ form {
     position: absolute;
     z-index: 1000;
     background: white;
-
 }
 .dropdown-menu {
     width: 25vw;
@@ -144,9 +143,4 @@ form {
       opacity: 0;
     }
     100% {
-      transform: translateY(0%);
-      opacity: 1;
-    }
-  }
-
-
+      trans

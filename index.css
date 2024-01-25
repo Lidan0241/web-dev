@@ -18,6 +18,7 @@ body {
     top: 35vh; 
     align-items: center;
     z-index: 1000;
+    animation: 2s fadeInUp;
 }
 
 .title1, .title2 {
@@ -35,6 +36,15 @@ body {
     font-family: 'Raleway', sans-serif, bold;
     font-size: 1.8rem;
     margin-left: 10px;
+}
+.subtitle1{
+    animation: 2.2s fadeInRight;
+}
+.subtitle2{
+    animation: 3.5s fadeInRight;
+}
+.subtitle3{
+    animation: 4.9s fadeInRight;
 }
 
 .backgroundContainer{
@@ -97,14 +107,37 @@ body {
     
 }
 
-/* The animation code */
+/* Filter Animation */
 @keyframes filterAnim {
    from {filter: brightness(60%);}
     to {filter: brightness(100%);}
   }
 
+/* Arrow moving animation */
 @keyframes arrowAnim {
     from {margin-left: 0px;}
      to {margin-left: 10px;}
    }
  
+/*Fade in animation*/
+@keyframes fadeInUp {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeInRight {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
