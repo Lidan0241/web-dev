@@ -26,6 +26,9 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Noto+Sans+SC:wght@900&display=swap" rel="stylesheet">
+
+    <!--Leaflet style-->
+    <link rel = "stylesheet" href = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
 </head>
 <body>
 <!--Navbar-->
@@ -100,17 +103,37 @@
         <div class="value3 col h-2O">
           <p>We believe travel is a force for good. It's a powerful tool for building bridges between cultures, and a way to connect people from around the world to help make a positive impact.</p>
         </div>
-          
       </div>
+    </div>
 
-       
+    <div class="mapTitle">Where we are located:</div>
+    <div class="mapSubtitle">Paris, France</div>
 
+    <div id =”my-map” class="map">
+      <iframe width="900" height="500" src="https://www.openstreetmap.org/export/embed.html?bbox=2.3748922348022465%2C48.82356471292653%2C2.404117584228516%2C48.84158790727877&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/>
     </div>
 
 
-    
 
-
-
+<script src = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<script>
+  // Creating map options
+  var mapOptions = {
+     center: [17.385044, 78.486671],
+     zoom: 10
+  }
+  
+  // Creating a map object
+  var map = new L.map('map', mapOptions);
+  
+  // Creating a Layer object
+  var layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
+  
+  // Adding layer to the map
+  map.addLayer(layer);
+  let marker = new L.Marker([51.958, 9.141]);
+  marker.addTo(map);
+</script>
 </body>
+
 </html>
