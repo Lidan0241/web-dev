@@ -66,9 +66,9 @@ body {
 
 .textContainer {
     font-family: 'Raleway', sans-serif;
-    margin-left: 300px;
-    margin-right: 300px;
-    margin-top: 440px;
+    margin-left: 280px;
+    margin-right: 280px;
+    margin-top: 480px;
     animation: 3s fadeInUp;
 }
 
