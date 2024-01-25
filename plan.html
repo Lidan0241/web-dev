@@ -106,6 +106,7 @@
       </div>
     </div>
 
+    <!--Map-->
     <div class="mapTitle">Where we are located:</div>
     <div class="mapSubtitle">Paris, France</div>
 
@@ -114,7 +115,7 @@
     </div>
 
 
-
+<!--Javascript for map-->
 <script src = "http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
 <script>
   // Creating map options
@@ -131,6 +132,8 @@
   
   // Adding layer to the map
   map.addLayer(layer);
+
+  // adding pins (doesn't work)
   let marker = new L.Marker([51.958, 9.141]);
   marker.addTo(map);
 </script>
