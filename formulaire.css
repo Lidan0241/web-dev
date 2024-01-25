@@ -143,4 +143,9 @@ form {
       opacity: 0;
     }
     100% {
-      trans
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+
+
