@@ -47,7 +47,9 @@ form {
 .formContainer {
     background-color: rgba(88, 58, 30, 0.597);
     border-radius: 20px;
-    margin: 80px;
+    margin-top: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
     padding: 35px;
 }
 .form-range ¶{
