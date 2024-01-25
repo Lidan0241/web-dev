@@ -67,6 +67,32 @@ body {
     font-family: 'Raleway', sans-serif;
     margin-left: 300px;
     margin-right: 300px;
-    margin-top: 480px;
-    margin-bottom: 300px;
+    margin-top: 400px;
+}
+
+.valueTitleContainer {
+    margin-top: 80px;
+    margin-left: 150px;
+    margin-right: 500px;
+    font-family: 'DM Serif Display', serif;
+    font-size: 3rem;
+}
+.valueContainer {
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.value1, .value2, .value3 {
+    background-color: rgba(88, 58, 30, 0.489);
+    border-radius: 20px;
+    margin: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: center;
+    display: flex;
 }
